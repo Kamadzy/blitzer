@@ -115,9 +115,25 @@ body{
     height: 30px;
 }
 
-
-
-
+/*----Sec page------*/
+.title-row{
+    margin-bottom: 50px;
+}
+.content-bord{
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+.content-bord p{
+    padding-bottom: 30px;
+}
+.row-item-col {
+    padding: 10px 0 0 20px;
+}
+.row-item-col p{
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    max-width: 50%;
+}
 
 
 
