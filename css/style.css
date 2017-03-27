@@ -88,13 +88,32 @@ body{
     padding: 5px 10px;
 }
 
-
-
-
-
-
 /*-----Footer-------*/
-
+#footer{
+    background-color: #4a4a4a;
+    padding-bottom: 70px;
+}
+#footer a{
+    color: #fff;
+    font-size: 10px;
+}
+#footer p{
+    color: #fff;
+    font-size: 10px;
+}
+#footer h4{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 70px 0 0;
+    padding: 0 0 15px;
+}
+.social{
+    margin-top: 30px;
+}
+.soc-img{
+    height: 30px;
+}
 
 
 
