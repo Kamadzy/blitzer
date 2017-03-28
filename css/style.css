@@ -25,13 +25,29 @@ body{
 }
 
 #jumbotron{
-    //background: url(../img/) ;
     margin-bottom: 60px;
+    background: url(../img/header_img.png) ;
+    width: 100%;
+    height: 250px;
+
 }
 .jmb-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 25px;
+    
+}
+.main-slogan{
+    color:#fff;
+    font-size: 20px;
+
+}
+.bold-text{
+    font-weight: bold;
+}
+.jumb-cont{
+    padding-top: 60px ;
 }
 
 /*-----Main content-------*/
@@ -129,7 +145,7 @@ body{
 .row-item-col {
     padding: 10px 0 0 20px;
 }
-.row-item-col p{
+.row-item-sec p{
     border-bottom: 1px solid black;
     padding-bottom: 7px;
     max-width: 50%;
