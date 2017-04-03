@@ -15,6 +15,13 @@ body{
     margin-top: 20px;
 
 }
+.navbar-toggle{
+    border: 2px solid #19528d;
+    margin-top: 20px;
+}
+.icon-bar {
+    background-color:#19528d !important;
+}
 .navbar-nav li a:hover{
     border-radius: 4px;
     color:#fff;
@@ -41,7 +48,11 @@ body{
 .main-slogan{
     color:#fff;
     font-size: 20px;
-
+}
+.main-slogan-sec{
+    color:#fff;
+    font-size: 20px;
+    padding-left: 100px;
 }
 .bold-text{
     font-weight: bold;
@@ -215,11 +226,11 @@ body{
 }
 .big-btn-group button{
     width: 80%;
-    background-color: #fff;
     margin: 5px 0;
     border: 2px solid #19528d;
     font-weight: bold;
     color:#19528d;
+    background-color: #fff;
 }
 .big-btn-group button:hover{
     width: 80%;
@@ -360,5 +371,54 @@ body{
 }
 /*Extra Small Devices, Phones*/
 @media only screen and (max-width:480px){
-
+    .main-logo{
+        width: 70%;
+    }
+    .main-slogan, .main-slogan-sec{
+        padding: 0;
+    }
+    #jumbotron-main .big-btn-group{
+        margin: 0;
+    }
+    #main-content-top img{
+        margin:5px;
+    }
+    #main-content-bot img{
+        height: 100px;
+    }
+    #jumbotron-btm h2{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .carousel-inner h2{
+        padding: 80px 3% 0 0;
+    }
+    .carousel-inner p{
+        padding: 0 30% 240px 60px;
+    }
+    .carousel-control.right, .carousel-control.left{
+        display: none; !important;
+    }
+    .carousel-indicators{
+        left: 60px;
+    }
+    #slider{
+        display: none; !important;
+    }
+    #footer{
+        padding-bottom: 20px;
+    }
+    #footer h4{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    #footer p{
+        font-size: 16px;
+    }#footer a{
+         font-size: 16px;
+     }
+    .soc-img{
+         height: 60px;
+         width: 17%;
+    }
 }

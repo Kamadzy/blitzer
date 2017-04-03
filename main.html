@@ -19,11 +19,17 @@
     <nav class="navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="row navbar-header col-md-5">
+            <div class="row navbar-header  col-md-5">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#myNavbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <img class="main-logo" src="img/main-logo-big.png" alt="logo"/>
             </div>
-
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="grey-text" href="#">Startseite</a></li>
                     <li><a class="grey-text" href="#">Sofunktionierts</a></li>
@@ -41,7 +47,7 @@
             <div class="jumb-cont-main">
                 <div class="col-md-5">
                     <h2 class="main-slogan">Wir prüfen ihren <span class="bold-text">Bußgeldverstoß</span></h2>
-                    <h2 style="padding-left:100px" class="main-slogan"><span class="bold-text">kostelnos</span> und in <span class="bold-text">kürzester Zeit.</span></h2>
+                    <h2 class="main-slogan-sec"><span class="bold-text">kostelnos</span> und in <span class="bold-text">kürzester Zeit.</span></h2>
 
                     <div class="big-btn-group">
                         <h4>Was wird Ihnen vorgeworfen?</h4>
@@ -146,7 +152,7 @@
 <section id="slider">
     <div class="container">
         <br>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li class="img-circle center-block active" data-target="#myCarousel" data-slide-to="0">
@@ -186,22 +192,18 @@
                         quae quasi rerum similique suscipit voluptas!</p>
                 </div>
             </div>
-
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
-                <img src="img/_Startseite/Arrow-01.png" alt=""/>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-                <img src="img/_Startseite/Arrow-02.png" alt=""/>
-            </a>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+                    <img src="img/_Startseite/Arrow-01.png" alt=""/>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+                    <img src="img/_Startseite/Arrow-02.png" alt=""/>
+                </a>
         </div>
     </div>
-
 </section>
-
-
 
 <section id="footer">
     <div class="container">
@@ -215,14 +217,14 @@
                     <img class="soc-img" src="img/_Startseite/Icon-23.png" alt=""/>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-6 row-item-col">
+            <div class="col-md-3 row-item-col hidden-xs">
                 <h4>Unser Service</h4>
                 <p><a href="#"> Bescheid Prüfung</a></p>
                 <p><a href="#"> Bußgeldrechner</a></p>
                 <p><a href="#"> Fragen & Antworten</a></p>
                 <p><a href="#"> So funktionierts</a></p>
             </div>
-            <div class="col-md-3 col-sm-6 row-item-col">
+            <div class="col-md-3 row-item-col">
                 <h4>Über Blitzerhilfe.de</h4>
                 <div class="contacts">
                     <p><a href="#"> Impressum</a></p>
