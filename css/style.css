@@ -334,6 +334,12 @@ body{
 .carousel-inner p{
     padding: 0 48% 100px 170px;
 }
+.carousel-control.right, .carousel-control.left {
+    background-image:none;
+}
+.carousel-control img{
+    padding-top: 80px;
+}
 
 
 
