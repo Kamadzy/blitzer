@@ -52,10 +52,6 @@ body{
 }
 
 /*-----Main content-------*/
-#main-content{
-
-}
-
 .main-con-title{
     font-size: 18px;
     margin-bottom: 0;
@@ -130,6 +126,7 @@ body{
 }
 .soc-img{
     height: 30px;
+    width: 6%;
 }
 
 /*----Sec page------*/
@@ -152,7 +149,6 @@ body{
     max-width: 50%;
 }
 
-
 /*----------Third Page-----------*/
 .form-group label{
     float: right;
@@ -172,6 +168,7 @@ body{
 .btn-image{
     width: 18%;
     float:left;
+    padding: 0 5px;
 }
 .btn{
     padding: 0;
@@ -198,7 +195,145 @@ body{
     margin-bottom: 100px;
 }
 
+/*------Main-------*/
+#jumbotron-main{
+    background: url(../img/imgpsh_fullsize.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.jumb-cont-main{
+    padding: 160px 0 0 40px;
+}
+#jumbotron-main .big-btn-group{
+    margin-left: 100px;
+}
+.big-btn-group h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.big-btn-group button{
+    width: 80%;
+    background-color: #fff;
+    margin: 5px 0;
+    border: 2px solid #19528d;
+    font-weight: bold;
+    color:#19528d;
+}
+.big-btn-group button:hover{
+    width: 80%;
+    background-color: #19528d;
+    margin: 5px 0;
+    border: 2px solid #19528d;
+    color: #fff;
+}
+.big-btn-group span{
+    display: block;
+    padding-top: 8px;
+}
+.big-btn-group a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+#prufen-main{
+    background-color: #19528d;
+}
+#main-content-top{
+    padding-left: 40px;
+    margin: 80px 0;
+}
+#main-content-top h4{
+    font-weight: bold;
+    font-size: 16px;
+}
+#main-content-top p {
+    font-size: 14px;
+}
+#main-content-top img{
+    width: 20%;
+}
+#main-content-bot h2{
+    margin: 70px 0 110px;
+}
+#main-content-bot p{
+    font-weight: bold;
+}
+#main-content-bot img{
+    width: 35%;
+    height: 78px;
+    margin: 30px 0 55px;  }
+#main-content-bot button{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #19528d;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 20px 0 170px;
+}
+.btm-row {
+    margin-top: 30px;
+}
 
+#jumbotron-btm{
+    margin-bottom: 60px;
+    background: url(../img/header_img.png) ;
+    width: 100%;
+    height: 250px;
+}
+.jumb-cont-btm{
+    padding-top: 60px ;
+}
+#jumbotron-btm h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+#jumbotron-btm button{
+    padding: 10px 15px;
+    color: #19528d;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px 0 170px;
+}
+
+#slider{
+    margin-bottom: 150px;
+}
+.carousel-indicators{
+    bottom:-155px;
+    left: 350px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    padding: 20px 0;
+}
+.carousel-indicators .active {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: #fafafa;
+    padding: 20px 0;
+}
+.carousel-indicators img {
+    width: 60%;
+}
+.carousel-inner h2{
+    padding: 80px 45% 0 0;
+    color: #19528d;
+}
+
+.carousel-inner p{
+    padding: 0 48% 100px 170px;
+}
 
 
 
