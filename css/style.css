@@ -18,11 +18,15 @@ body{
 
 .main-logo {
     float: left;
-    margin-top: 20px;
+    margin: 30px 0;
+    height: 40px;
+}
+.navbar{
+    margin: 0;
 }
 .navbar-nav{
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 25px;
 
 }
 .navbar-toggle{
@@ -58,11 +62,14 @@ body{
 .main-slogan{
     color:#fff;
     font-size: 20px;
+    padding-left: 100px;
+    margin: 0;
 }
 .main-slogan-sec{
     color:#fff;
     font-size: 20px;
     padding-left: 100px;
+    margin: 5px 0 0;
 }
 .bold-text{
     font-weight: bold;
@@ -106,9 +113,10 @@ body{
     background-color: #19528d;
 }
 .row-item-pruf{
-    padding: 15px 0;
+    padding: 28px 0;
 }
 .pruf-text{
+    font-size: 30px;
     color:#fff;
     padding-bottom: 5px;
 }
@@ -125,7 +133,7 @@ body{
 /*-----Footer-------*/
 #footer{
     background-color: #4a4a4a;
-    padding-bottom: 70px;
+    padding: 120px 0;
 }
 #footer a{
     color: #fff;
@@ -233,10 +241,11 @@ body{
     font-size: 14px;
     font-weight: bold;
     color: #fff;
+    margin: 60px 0 16px;
 }
 .big-btn-group button{
     width: 80%;
-    margin: 5px 0;
+    margin: 10px 0;
     border: 2px solid #19528d;
     font-weight: bold;
     color:#19528d;
@@ -245,7 +254,7 @@ body{
 .big-btn-group button:hover{
     width: 80%;
     background-color: #19528d;
-    margin: 5px 0;
+    margin: 10px 0;
     border: 2px solid #19528d;
     color: #fff;
 }
@@ -257,13 +266,15 @@ body{
     text-decoration: none;
     font-size: 12px;
     color: #fff;
+    margin-top: 20px;
+    display: block;
 }
 #prufen-main{
     background-color: #19528d;
 }
 #main-content-top{
     padding-left: 40px;
-    margin: 80px 0;
+    margin: 120px 0;
 }
 #main-content-top h4{
     font-weight: bold;
@@ -276,7 +287,7 @@ body{
     width: 20%;
 }
 #main-content-bot h2{
-    margin: 70px 0 110px;
+    margin: 70px 0 120px;
 }
 #main-content-bot p{
     font-weight: bold;
@@ -284,29 +295,32 @@ body{
 #main-content-bot img{
     width: 35%;
     height: 78px;
-    margin: 30px 0 55px;  }
+    margin: 30px 0 55px;
+}
 #main-content-bot button{
     padding: 10px 15px;
     color: #fff;
     background-color: #19528d;
     font-weight: bold;
     border-radius: 5px;
-    margin: 20px 0 170px;
+    margin: 20px 0 160px;
+}
+#main-content-bot .btm-row{
+    margin: 100px 0 40px;
 }
 .btm-row {
     margin-top: 30px;
 }
 
 #jumbotron-btm{
-    margin-bottom: 60px;
+    background-repeat: no-repeat;
     background: url(../img/header_img.png) ;
+    margin-bottom: 60px;
     width: 100%;
     height: 250px;
 }
-.jumb-cont-btm{
-    padding-top: 60px ;
-}
 #jumbotron-btm h2{
+    margin-top: 80px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -320,10 +334,10 @@ body{
 }
 
 #slider{
-    margin-bottom: 150px;
+    margin:150px 0 220px;
 }
 .carousel-indicators{
-    bottom:-155px;
+    bottom: -100px;
     left: 350px;
 }
 .carousel-indicators li {
