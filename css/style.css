@@ -19,7 +19,7 @@ body{
 .main-logo {
     float: left;
     margin: 30px 0;
-    height: 40px;
+    height: 50px;
 }
 .navbar{
     margin: 0;
@@ -133,7 +133,7 @@ body{
 /*-----Footer-------*/
 #footer{
     background-color: #4a4a4a;
-    padding: 120px 0;
+    padding-bottom: 70px;
 }
 #footer a{
     color: #fff;
