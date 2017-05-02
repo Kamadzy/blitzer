@@ -374,6 +374,7 @@ body{
 }
 .carousel-control img{
     padding-top: 80px;
+    height: 60%;
 }
 
 
@@ -387,11 +388,32 @@ body{
 }
 /*Medium Devices, Desktops*/
 @media only screen and (max-width:992px){
-
+    #main-content-bot img{
+        height: 140px;
+    }
+    .carousel-control {
+        display: none;
+    }
 }
 /*Small Devices, Tablets*/
 @media only screen and (max-width:600px){
-
+    #main-content-bot img{
+        height: 165px;
+    }
+    #main-content-top img{
+        margin:5px;
+    }
+    .carousel-control {
+        display: none;
+    }
+    .carousel-inner p {
+        padding: 0 20% 100px 170px;
+    }
+    .carousel-indicators {
+        bottom: -90px;
+        left: 185px;
+        width: 100%;
+    }
 }
 /*Extra Small Devices, Phones*/
 @media only screen and (max-width:480px){
